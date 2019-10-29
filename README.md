@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.15.
 
 ## Live Demo 
-Running Live on: [DEMO](mayank-angular-adminpanel.netlify.com)
+Running Live on: [DEMO](https://mayank-angular-adminpanel.netlify.com)
 
 ## Development server
 
