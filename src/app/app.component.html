@@ -1,0 +1,97 @@
+<div class="body bg-black">
+  <header>
+    <nav class="navbar navbar-light">
+      <form class="form-inline navbar-brand">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+      </form>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <img
+            width="40px"
+            height="40px"
+            src="../assets/company-icon.png"
+            alt="Company Name"
+          />
+        </li>
+      </ul>
+      <ul class="nav justify-content-end">
+        <li class="nav-item mx-1">
+          <a href="" class="btn btn-light"
+            ><i class="tiny material-icons">add</i></a
+          >
+        </li>
+        <li class="nav-item mx-1">
+          <a href="" class="btn btn-danger"
+            ><i class="tiny material-icons">notifications_none</i></a
+          >
+        </li>
+        <li class="nav-item mx-1">
+          <a href="" class="btn btn-light"
+            ><i class="tiny material-icons">ZI</i></a
+          >
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="row">
+    <div class="sideNav col">
+      <div class="nav flex-column nav-pills" aria-orientation="vertical">
+        <li class="nav-item my-2">
+          <a class="nav-link text-white" href="" role="tab" routerLink="/"
+            >Dashboard</a
+          >
+        </li>
+
+        <li class="nav-item my-2">
+          <a
+            class="nav-link text-white"
+            href=""
+            role="tab"
+            routerLink="/enquiries"
+            >Enquiries</a
+          >
+        </li>
+        <li class="nav-item my-2">
+          <a class="nav-link text-white" href="" role="tab" routerLink="/leads"
+            >Leads</a
+          >
+        </li>
+        <li class="nav-item my-2">
+          <a class="nav-link text-white" href="" role="tab" routerLink="/sales"
+            >Sales in Progress</a
+          >
+        </li>
+
+        <li class="nav-item my-2">
+          <a
+            class="nav-link text-white"
+            href=""
+            role="tab"
+            routerLink="/reports"
+            >Reports</a
+          >
+        </li>
+      </div>
+    </div>
+    <div class="content-bar col-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="row justify-content-center pt-2">
+    <footer>
+      <p>
+        Made with <span class="text-danger">&hearts;</span>&nbsp;<a
+          (click)="hireMe()"
+          href=""
+          class="text-primary"
+          >Hire Me</a
+        >
+      </p>
+    </footer>
+  </div>
+</div>
