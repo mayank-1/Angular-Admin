@@ -8,6 +8,7 @@ import { EnquiriesComponent } from './enquiries/enquiries.component';
 import { LeadsComponent } from './leads/leads.component';
 import { SalesInProgressComponent } from './sales-in-progress/sales-in-progress.component';
 import { ReportsComponent } from './reports/reports.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReportsComponent } from './reports/reports.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
